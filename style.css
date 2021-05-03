@@ -5,8 +5,8 @@
 }
 body {
   background: black;
-  color: rgb(218, 215, 215);
-  font-family: "Poppins", sans-serif;
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
 }
 .main-box {
   display: flex;
@@ -35,7 +35,7 @@ body {
   border-radius: 0px 10px 10px 0px;
 }
 .overlay {
-  background: rgb(144, 24, 199);
+  background: hsl(277, 64%, 61%);
   opacity: 0.6;
   width: 540px;
   height: 400px;
@@ -49,10 +49,11 @@ span {
 }
 .para {
   margin-top: 5%;
-  color: rgb(197, 193, 193);
+  color: hsla(0, 0%, 100%, 0.75);
 }
 h6 {
-  color: rgb(197, 193, 193);
+  color: hsla(0, 0%, 100%, 0.6);
+  font-family: "Lexend", sans-serif;
 }
 @media screen and (max-width: 600px) {
   .main-box {
